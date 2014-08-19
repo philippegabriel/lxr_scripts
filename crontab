@@ -1,0 +1,6 @@
+# Fetch repos
+# Run the LXR indexer
+# m h  dom mon dow   command
+PATH=/bin:/usr/bin:/usr/sbin
+0 * * * * /lxr/lxr_scripts/run.sh >>/tmp/cronrun 2>&1
+

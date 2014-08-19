@@ -6,3 +6,4 @@ https://github.com/xapi-project/blktap.git,/lxr/src/xenserver/trunk/blktap,maste
 https://github.com/xapi-project/blktap.git,/lxr/src/xenserver/creedence/blktap,xs64bit
 https://github.com/xapi-project/sm.git,/lxr/src/xenserver/trunk/sm,master
 https://github.com/xapi-project/sm.git,/lxr/src/xenserver/creedence/sm,xs64bit
+https://github.com/xapi-project/xenopsd.git,/lxr/src/xenserver/sandbox/xenopsd,master

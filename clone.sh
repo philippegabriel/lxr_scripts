@@ -1,3 +1,4 @@
+HERE=`pwd`
 while read LINE 
 do  
 	repo=`echo $LINE | cut -d, -f1`
@@ -5,9 +6,9 @@ do
 	branch=`echo $LINE | cut -d, -f3`
 #echo "$repo;$dir;$branch"
 	git clone $repo $dir
-	pushd $dir
+	cd $dir
 	git checkout $branch
-	popd
+	cd $HERE
 done
 exit 0
 
