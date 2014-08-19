@@ -1,0 +1,4 @@
+https://github.com/xapi-project/xen-api.git,xenserver/trunk/xen-api,master
+https://github.com/xapi-project/xen-api.git,xenserver/creedence/xen-api,xs64bit-ring3
+https://github.com/xapi-project/xen-api-libs.git,xenserver/trunk/xen-api-libs,master
+https://github.com/xapi-project/xen-api-libs.git,xenserver/creedence/xen-api-libs,xs64bit-ring3
