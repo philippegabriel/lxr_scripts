@@ -1,9 +1,45 @@
-https://github.com/xapi-project/xen-api.git,/lxr/src/xenserver/trunk/xen-api,master
-https://github.com/xapi-project/xen-api.git,/lxr/src/xenserver/creedence/xen-api,xs64bit-ring3
-https://github.com/xapi-project/xen-api-libs.git,/lxr/src/xenserver/trunk/xen-api-libs,master
-https://github.com/xapi-project/xen-api-libs.git,/lxr/src/xenserver/creedence/xen-api-libs,xs64bit-ring3
+#Storage repos 
 https://github.com/xapi-project/blktap.git,/lxr/src/xenserver/trunk/blktap,master
 https://github.com/xapi-project/blktap.git,/lxr/src/xenserver/creedence/blktap,xs64bit
 https://github.com/xapi-project/sm.git,/lxr/src/xenserver/trunk/sm,master
 https://github.com/xapi-project/sm.git,/lxr/src/xenserver/creedence/sm,xs64bit
+# ring3 repos common to trunk & previous releases
+https://github.com/xapi-project/xen-api.git,/lxr/src/xenserver/trunk/xen-api,master
+https://github.com/xapi-project/xen-api.git,/lxr/src/xenserver/creedence/xen-api,xs64bit-ring3
+https://github.com/xapi-project/xen-api-libs.git,/lxr/src/xenserver/trunk/xen-api-libs,master
+https://github.com/xapi-project/xen-api-libs.git,/lxr/src/xenserver/creedence/xen-api-libs,xs64bit-ring3
+# ring3 repos post disagregation
+http://github.com/xapi-project/cdrom,/lxr/src/xenserver/trunk/cdrom,master
+http://github.com/xapi-project/filesystem-summarise,/lxr/src/xenserver/trunk/filesystem-summarise,master
+http://github.com/xapi-project/forkexecd,/lxr/src/xenserver/trunk/forkexecd,master
+http://github.com/xapi-project/libvhd,/lxr/src/xenserver/trunk/libvhd,master
+http://github.com/xapi-project/message-switch,/lxr/src/xenserver/trunk/message-switch,master
+http://github.com/xapi-project/nbd,/lxr/src/xenserver/trunk/nbd,master
+http://github.com/xapi-project/netdev,/lxr/src/xenserver/trunk/netdev,master
+http://github.com/xapi-project/ocaml-fd-send-recv,/lxr/src/xenserver/trunk/ocaml-fd-send-recv,master
+http://github.com/xapi-project/ocaml-qmp,/lxr/src/xenserver/trunk/ocaml-qmp,master
+http://github.com/xapi-project/ocaml-xen-lowlevel-libs,/lxr/src/xenserver/trunk/ocaml-xen-lowlevel-libs,master
+http://github.com/xapi-project/ocaml-xenstore,/lxr/src/xenserver/trunk/ocaml-xenstore,master
+http://github.com/xapi-project/ocaml-xenstore-clients,/lxr/src/xenserver/trunk/ocaml-xenstore-clients,master
+http://github.com/xapi-project/squeezed,/lxr/src/xenserver/trunk/squeezed,master
+http://github.com/xapi-project/stdext,/lxr/src/xenserver/trunk/stdext,master
+http://github.com/xapi-project/tapctl,/lxr/src/xenserver/trunk/tapctl,master
+http://github.com/xapi-project/wsproxy,/lxr/src/xenserver/trunk/wsproxy,master
+http://github.com/xapi-project/xcp-idl,/lxr/src/xenserver/trunk/xcp-idl,master
+http://github.com/xapi-project/xcp-inventory,/lxr/src/xenserver/trunk/xcp-inventory,master
+http://github.com/xapi-project/xcp-networkd,/lxr/src/xenserver/trunk/xcp-networkd,master
+http://github.com/xapi-project/xcp-rrd,/lxr/src/xenserver/trunk/xcp-rrd,master
+http://github.com/xapi-project/xcp-rrdd,/lxr/src/xenserver/trunk/xcp-rrdd,master
+http://github.com/xapi-project/xen-api-client,/lxr/src/xenserver/trunk/xen-api-client,master
+http://github.com/xapi-project/xen-api-libs-specs,/lxr/src/xenserver/trunk/xen-api-libs-specs,master
+http://github.com/xapi-project/xen-api-libs-transitional,/lxr/src/xenserver/trunk/xen-api-libs-transitional,master
+http://github.com/xapi-project/xen-api-sdk,/lxr/src/xenserver/trunk/xen-api-sdk,master
+http://github.com/xapi-project/xenops,/lxr/src/xenserver/trunk/xenops,master
+http://github.com/xapi-project/xenops-cli,/lxr/src/xenserver/trunk/xenops-cli,master
+http://github.com/xapi-project/xenopsd,/lxr/src/xenserver/trunk/xenopsd,master
+http://github.com/xenserver/perf-tools,/lxr/src/xenserver/trunk/perf-tools,master
+http://github.com/xenserver/planex,/lxr/src/xenserver/trunk/planex,master
+http://github.com/xenserver/rrd2csv,/lxr/src/xenserver/trunk/rrd2csv,master
+http://github.com/xenserver/rrdd-plugins,/lxr/src/xenserver/trunk/rrdd-plugins,master
+#sandbox - testing only
 https://github.com/xapi-project/xenopsd.git,/lxr/src/xenserver/sandbox/xenopsd,master

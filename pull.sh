@@ -1,6 +1,9 @@
 HERE=`pwd`
 while read LINE 
-do  
+do 
+#skip comments
+	echo $LINE | grep '^#' && continue
+#process line 
 	repo=`echo $LINE | cut -d, -f1`
 	dir=`echo $LINE | cut -d, -f2`
 	branch=`echo $LINE | cut -d, -f3`
@@ -9,6 +12,6 @@ do
 	git checkout $branch
 	git pull 
 	cd $HERE
-done
+done < $1
 exit 0
 
