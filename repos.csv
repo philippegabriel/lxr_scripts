@@ -8,6 +8,8 @@ https://github.com/xapi-project/xen-api.git,/lxr/src/xenserver/trunk/xen-api,mas
 https://github.com/xapi-project/xen-api.git,/lxr/src/xenserver/creedence/xen-api,xs64bit-ring3
 https://github.com/xapi-project/xen-api-libs.git,/lxr/src/xenserver/trunk/xen-api-libs,master
 https://github.com/xapi-project/xen-api-libs.git,/lxr/src/xenserver/creedence/xen-api-libs,xs64bit-ring3
+git://hg.uk.xensource.com/carbon/creedence/v6.git,/lxr/src/xenserver/creedence/v6,master
+git://hg.uk.xensource.com/carbon/trunk/v6.git,/lxr/src/xenserver/trunk/v6,master
 # ring3 repos post disagregation
 http://github.com/xapi-project/cdrom,/lxr/src/xenserver/trunk/cdrom,master
 http://github.com/xapi-project/filesystem-summarise,/lxr/src/xenserver/trunk/filesystem-summarise,master
@@ -42,4 +44,4 @@ http://github.com/xenserver/planex,/lxr/src/xenserver/trunk/planex,master
 http://github.com/xenserver/rrd2csv,/lxr/src/xenserver/trunk/rrd2csv,master
 http://github.com/xenserver/rrdd-plugins,/lxr/src/xenserver/trunk/rrdd-plugins,master
 #sandbox - testing only
-https://github.com/xapi-project/xenopsd.git,/lxr/src/xenserver/sandbox/xenopsd,master
+http://github.com/xenserver/xenadmin,/lxr/src/xenserver/sandbox/xencenter,master

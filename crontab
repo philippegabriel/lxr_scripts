@@ -2,5 +2,5 @@
 # Run the LXR indexer
 # m h  dom mon dow   command
 PATH=/bin:/usr/bin:/usr/sbin
-35 23 * * * /lxr/lxr_scripts/run.sh >>/tmp/cronrun 2>&1
+25 23 * * * /lxr/lxr_scripts/run.sh >/tmp/cronrun 2>&1
 
