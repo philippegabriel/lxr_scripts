@@ -1,0 +1,25 @@
+#These are targets for XenServer build system
+/lxr/src/xenserver/trunk/,api
+/lxr/src/xenserver/trunk/,api-libs
+/lxr/src/xenserver/trunk/,xen
+/lxr/src/xenserver/trunk/,blktap
+/lxr/src/xenserver/trunk/,ioemu
+/lxr/src/xenserver/trunk/,sm
+/lxr/src/xenserver/trunk/,v6
+/lxr/src/xenserver/trunk/,xha
+/lxr/src/xenserver/creedence/,api
+/lxr/src/xenserver/creedence/,api-libs
+/lxr/src/xenserver/creedence/,xen
+/lxr/src/xenserver/creedence/,blktap
+/lxr/src/xenserver/creedence/,ioemu
+/lxr/src/xenserver/creedence/,sm
+/lxr/src/xenserver/creedence/,v6
+/lxr/src/xenserver/creedence/,xha
+/lxr/src/xenserver/clearwater-sp1-lcm/,api
+/lxr/src/xenserver/clearwater-sp1-lcm/,api-libs
+/lxr/src/xenserver/clearwater-sp1-lcm/,xen
+/lxr/src/xenserver/clearwater-sp1-lcm/,blktap
+/lxr/src/xenserver/clearwater-sp1-lcm/,ioemu
+/lxr/src/xenserver/clearwater-sp1-lcm/,sm
+/lxr/src/xenserver/clearwater-sp1-lcm/,v6
+/lxr/src/xenserver/clearwater-sp1-lcm/,xha
