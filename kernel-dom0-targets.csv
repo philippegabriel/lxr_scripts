@@ -1,0 +1,4 @@
+#These are targets for XenServer build system
+/lxr/src/kernel-dom0/trunk/,kernel-dom0
+/lxr/src/kernel-dom0/creedence,kernel-dom0
+/lxr/src/kernel-dom0/clearwater-sp1-lcm,kernel-dom0
