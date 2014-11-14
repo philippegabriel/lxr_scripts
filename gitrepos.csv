@@ -1,0 +1,3 @@
+#XenCenter repos
+git://hg.uk.xensource.com/carbon/trunk/xenadmin.git,/lxr/src/xenserver/lxrLinks/trunk/xenadmin,master
+git://hg.uk.xensource.com/carbon/creedence/xenadmin.git,/lxr/src/xenserver/lxrLinks/creedence/xenadmin,master

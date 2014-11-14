@@ -9,9 +9,9 @@ date
 echo '######################################################################################'
 #sync repos
 cd /lxr/lxr_scripts
-#Either use pull.sh to pull directly from github repos
-#./pull.sh ./repos.csv
-#Or use CTXS build system to do it
+#pull git repos (those not tracked by XS build system)
+./gitpull.sh ./gitrepos.csv
+#invoke XS build system to sync build components
 ./CTXSbuild-clone.sh ./xenserver-targets.csv
 #invoke lxr
 cd /lxr/lxr-2.0.2
