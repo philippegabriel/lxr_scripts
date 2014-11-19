@@ -1,4 +1,4 @@
-##Scripts and config files for XenServer lxr 
+![Scripts and config files for XenServer lxr](doc/lxrscreenshot.png)
 Indexing all repos used by XenServer requires a few hours, hence this set of scripts run off a cronjob.
 The scripts implement:
 * Fetch repos using the XenServer build system (not OSS)
