@@ -22,6 +22,9 @@ cd /lxr/lxr_scripts
 #invoke lxr
 cd /lxr/lxr-2.0.2
 time ./genxref --url=http://lxr.xs.citrite.net --tree=kernel-dom0 --allversions --reindexall
+#index Xen repos
+cd /lxr/lxr-2.0.2
+time ./genxref --url=http://lxr.xs.citrite.net --tree=Xen --allversions --reindexall
 cd $HERE
 exit 0
 
