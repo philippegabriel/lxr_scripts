@@ -1,9 +1,10 @@
-##Scripts and config files for XenServer lxr 
+##Scripts and config files for XenServer lxr
+![lxr for XenServer](doc/lxrscreenshot.png)
 Indexing all repos used by XenServer requires a few hours, hence this set of scripts run off a cronjob.
 The scripts implement:
 * Fetch repos using the XenServer build system (not OSS)
 * Fetch repos from git repos
-* invoke [genxref](http://lxr.sourceforge.net/en/index.shtml)
+* invoke [genxref](http://lxr.sourceforge.net/en/index.shtml) on XenServer and XenServer dom0 linux kernel
 
 ##Installation
 * Install [LXR](http://lxr.sourceforge.net/en/index.shtml)
@@ -28,7 +29,7 @@ The scripts implement:
 * Customise `*.csv` files, to index required components/repos/releases
 * Schedule cron job
 
-##Webalizer configuration
+##[Webalizer](http://www.webalizer.org/) configuration
 * Edit `webalizer.conf` if needed, then mv to `/etc/webalizer/`
 * Edit `webalizer.www.conf` if needed, then mv to `/etc/apache2/conf.d`, then restart apache
 * Schedule cron job (needs root), `sudo crontab crontab.webalizer`
