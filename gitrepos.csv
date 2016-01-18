@@ -1,6 +1,7 @@
 #XenCenter repos
 git://hg.uk.xensource.com/carbon/trunk/xenadmin.git,/lxr/src/xenserver/lxrLinks/trunk/xenadmin,master
-git://hg.uk.xensource.com/carbon/creedence/xenadmin.git,/lxr/src/xenserver/lxrLinks/creedence/xenadmin,master
+git://hg.uk.xensource.com/carbon/cream-lcm/xenadmin.git,/lxr/src/xenserver/lxrLinks/cream-lcm/xenadmin,master
 git://xenbits.xen.org/xen.git,/lxr/src/Xen/trunk,master
 git://xenbits.xen.org/xen.git,/lxr/src/Xen/4.4,stable-4.4
 git://xenbits.xen.org/xen.git,/lxr/src/Xen/4.5,stable-4.5
+git://xenbits.xen.org/xen.git,/lxr/src/Xen/4.6,stable-4.6

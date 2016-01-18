@@ -1,6 +1,7 @@
 #These are targets for XenServer build system
 /lxr/src/xenserver/trunk/,api
 /lxr/src/xenserver/trunk/,api-libs
+/lxr/src/xenserver/trunk/,auto-cert-kit
 /lxr/src/xenserver/trunk/,blktap
 /lxr/src/xenserver/trunk/,ioemu
 /lxr/src/xenserver/trunk/,openvswitch
@@ -10,6 +11,7 @@
 /lxr/src/xenserver/trunk/,xha
 /lxr/src/xenserver/cream-lcm/,api
 /lxr/src/xenserver/cream-lcm/,api-libs
+/lxr/src/xenserver/cream-lcm/,auto-cert-kit
 /lxr/src/xenserver/cream-lcm/,blktap
 /lxr/src/xenserver/cream-lcm/,ioemu
 /lxr/src/xenserver/cream-lcm/,openvswitch
